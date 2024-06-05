@@ -1,0 +1,19 @@
+[system]
+# Debug logging
+#debug = false
+# Run the connection test
+#connection_test = true
+
+[tor]
+# Address for the Tor proxy
+#proxy_address = "127.0.0.1:9050"
+# Address for the Tor control port
+#control_address = "127.0.0.1:9051"
+# Authentication for the Tor control port.
+# Valid values are "safe-cookie", or "hashed-password"
+# If left blank (the default) it uses no authentication
+#authentication =
+# Cookie value. If voynich can't read the cookie file, you must set this
+#cookie = "SSBhbSBhIGNvb2tpZQo="
+# Password for the "hashed-password" authentication
+#hashed_password = "something"
